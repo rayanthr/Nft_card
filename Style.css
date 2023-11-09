@@ -1,0 +1,176 @@
+body{
+    
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+  
+    margin-top: 7%;
+    width: 20%;
+    height: 20%;
+    text-align: start;
+    padding: 1% 1% 5% 1%;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 30px;
+    border-style: solid;
+    border-color: hsl(216, 50%, 16%);
+ 
+  
+   
+  
+
+}
+
+.image{
+
+
+ width: 100%;
+ border-radius: 5%;
+ height: 55%;
+ margin: 0;
+ padding: 0;
+
+
+
+
+}
+
+.attribution{
+
+  margin-top: 150px; ;
+
+
+}
+
+.text{
+
+ font-family: Outfit;
+ color:  hsl(0, 0%, 100%);
+
+
+}
+
+h1{
+
+font-size:large;
+font-family: Outfit;
+font-weight: 600;
+color: hsl(0, 0%, 100%);
+margin-bottom: 10%;
+
+
+}
+
+.par{
+
+ color: hsl(215, 51%, 70%);
+ font-size: medium;
+
+
+}
+
+.flex{
+
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ margin-bottom: 10%;
+ justify-content: space-between;
+
+
+}
+
+.start{
+
+ flex: 1;
+ display: flex;
+ align-items: center;
+
+
+
+}
+
+.end{
+ flex: 1;
+ justify-content: end;
+ display: flex;
+ align-items: center;
+
+}
+
+.eth{
+
+ margin-right: 7%; 
+ padding:0;
+ 
+
+}
+
+.cl{
+
+  margin-right: 7%;
+ padding: 0;
+
+
+}
+
+.cr{
+
+  display: flex;
+  align-items: center;
+}
+
+.avatar{
+
+margin-right:5% ;
+
+}
+
+HR{
+
+width: 80%;
+margin-bottom: 5%;
+color:  hsl(215, 51%, 70%);
+
+
+}
+
+span{
+
+ color: hsl(215, 51%, 70%);
+ 
+
+}
+
+
+@media (min-width:400px) and (max-width:600px) {
+
+  .container{
+
+   width: 65%;
+   padding: 5% 5% 15% 5%;
+   
+
+  }
+
+  
+}
+
+
+@media (min-width:601px) and (max-width:1000px) {
+
+  .container{
+
+   width: 50%;
+   padding: 4% 4% 15% 4%;
+   
+
+  }
+
+  
+}
